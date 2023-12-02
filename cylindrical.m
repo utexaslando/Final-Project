@@ -1,6 +1,3 @@
-% not done yet plz fix ts
-
-
 % defines a 2D cylindrical heat profile for a given number of resistances and
 % boundary conditions
 %
