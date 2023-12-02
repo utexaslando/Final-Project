@@ -47,7 +47,7 @@ function [] = heatprofile(h2, bulkTemp2, resistanceInfo, Temp1, xStep, geometry)
     elseif strcmp(geometry, 'cylindrical')
         [x, T] = cylindrical(h2, bulkTemp2, resistanceInfo, Temp1, xStep);
         plot(x, T)
-        title('Spherical Heat Profile')
+        title('Cylindrical Heat Profile')
     else
         error('Invalid geometry! Please input "cartesian", "spherical", or "cylindrical"')
     end
